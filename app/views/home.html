@@ -1,0 +1,11 @@
+<div class="col-md-12">
+    <h3>Home Page</h3>
+    
+    <li ng-repeat="ville in listVille" ng-click="testEventCLick($event)">
+        {{ville}}
+    </li>
+    
+    <weather-detail ng-show="showMe"></weather-detail>
+
+    <a href="#/login">Déconnexion</a>
+</div>

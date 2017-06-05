@@ -1,0 +1,20 @@
+<!--weather.description ; main.temp (conversion en Fahrenheit en degré Celsius) ; wind.speed ; main.humidity-->
+
+
+<div class="container">
+    <h4>{{weather.name}}</h4>
+    <ul class="list-unstyled">
+        <li>
+            <strong>Description</strong> : {{weather.weather[0].description}}
+        </li>
+        <li>
+            <strong>Temp</strong> : {{weather.main.temp}}
+        </li>
+        <li>
+            <strong>Wind</strong> : {{weather.wind}}
+        </li>
+        <li>
+            <strong>Humidity</strong> : {{weather.main.humidity}}
+        </li>
+    </ul>
+</div>
